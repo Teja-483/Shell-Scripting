@@ -6,7 +6,7 @@
 #The script is related to the print the data of ec2,s3,lamda functions,IAM of AWS
 
 set -x
-#set -e
+#set -e #e is used for error handling, if any error in the shell scripting it will stop the execution..
 #set -o pipeline
 #aws ec2 describe-instances 
 #below one we are sending the ec2 describe-instance to jq, jq means it is used for json data format purpose,
