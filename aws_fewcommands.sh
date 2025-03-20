@@ -7,7 +7,7 @@
 
 set -x
 #set -e #e is used for error handling, if any error in the shell scripting it will stop the execution..
-#set -o pipeline
+#set -o pipeline #-o pipeline is used for any pipeline errors are there it will throw error.
 #aws ec2 describe-instances 
 #below one we are sending the ec2 describe-instance to jq, jq means it is used for json data format purpose,
 #[] - why we used square brakes means our instaces are not a single one, so we used list '[]'
