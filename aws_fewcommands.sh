@@ -6,6 +6,8 @@
 #The script is related to the print the data of ec2,s3,lamda functions,IAM of AWS
 
 set -x
+#set -e
+#set -o pipeline
 #aws ec2 describe-instances 
 #below one we are sending the ec2 describe-instance to jq, jq means it is used for json data format purpose,
 #[] - why we used square brakes means our instaces are not a single one, so we used list '[]'
